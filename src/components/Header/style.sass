@@ -1,0 +1,49 @@
+@import "../../sass/variable.sass"
+
+.navigation 
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    width: 100%
+    z-index: 997
+    margin-bottom: 2rem
+    background-color: #ffffff
+    padding: 2rem  
+    
+.img-navigation
+    margin-top: 0px 
+    display: block 
+    max-width: 100% 
+
+a.link-navigation
+    display: block
+    padding: .5rem 1rem
+    color: $primary-font-color
+
+.item-navigation 
+    display: flex
+    justify-content: flex-start
+
+.item-navigation .anticon 
+    vertical-align: -12px 
+    padding-left: 20px   
+
+.item-navigation .ant-badge-count 
+    left: 15px 
+    right: unset      
+
+.navigation .ant-input-affix-wrapper .ant-input:not(:last-child)
+	height: 48px 
+	border: 1px solid black 
+	border-radius: 3px 
+	background-color: #FFFFFF 
+	box-shadow: inset 0 0 1px 0 rgba(0,0,0,0.5)
+
+.navigation .ant-input-search > .ant-input-suffix > .ant-input-search-button 
+    height: 48px
+    border-radius: 3px  
+    background-color: $background-color-primary 
+
+.navigation .ant-input-search-icon 
+    color: $primary-color             
